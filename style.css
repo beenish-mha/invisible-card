@@ -8,26 +8,29 @@
   width: 100vw;
   background: url("images/cat1.jpg") no-repeat center center;
   background-size: cover;
+  position: relative;
 }
-/* .card-wrapper {
+.card-wrapper {
   height: 25rem;
   width: 20rem;
-
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/cat1.jpg") no-repeat center;
-  border-radius: 5px;
-  transition: box-shadow 1s;
+  background: url("images/cat1.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 15px;
+  transition: 1s;
 }
+.card-wrapper img {
+  height: 10em;
+  width: 20em;
+}
+
 .card-wrapper:hover {
-  box-shadow: 0 0 30px #fff;
-  
+  box-shadow: 0 0 20px black;
 }
-*/
-/* .card {
-  
+
+.card {
   display: none;
-}  */
+}
